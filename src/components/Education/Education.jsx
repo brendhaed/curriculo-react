@@ -14,7 +14,7 @@ export function Education(){
             Principais disciplinas: Lógica de programção, Redes, Manutenção de computadores, Desenvolvimento web
         </p>
         <h2>Cursos relevantes</h2>
-        <p>CURSOS RELEVANTES
+        <p>
             JavaScript Avançado | Front-end para React | UX/UI para desenvolvedores | Versionamento de Código com Git e
             GitHub| Acessibilidades Web
         </p>

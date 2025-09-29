@@ -1,6 +1,9 @@
+import './Skills.css'
 
 export function SoftSkills() {
     return(
-        <p>Proatividade, comunicação, metodologias ágeis, Flexidade, </p>
+       <div id="soft-skills">
+         <p>Proatividade, comunicação, metodologias ágeis, Flexidade, </p>
+       </div>
     )
 }
