@@ -1,0 +1,14 @@
+
+.education{
+    border: 2px solid #b12ba9;
+    border-radius: 30px;
+    margin-top: 50px;
+    padding: 50px;
+}
+.educ-1, .educ-2{
+    margin-bottom: 30px;
+}
+.educ-1 h3, .educ-2 h3{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d461fb;
+}

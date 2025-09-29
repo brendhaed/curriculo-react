@@ -1,8 +1,15 @@
 
-#skills h3{
+.skills h3{
+    color: #d461fb;
     text-align: center;
-    margin-bottom: 20px;
+    /* border-bottom: 2px solid #d461fb; */
 }
-#soft-skills #hard-skills p {
-    text-align: center;
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px;
+
 }

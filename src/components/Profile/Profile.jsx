@@ -14,11 +14,11 @@ export function Profile(){
         <div className="header">
         <div className="name">
           <h1 id='myname'>Brendha E.  Rodrigues</h1>
-          <p>Desenvolvedora Front-End</p>
+          <p className=''>Desenvolvedora Front-End</p>
         </div>
-        <img src={FotoPerfil} alt="Minha foto" width={300} />
+        <img src={FotoPerfil} alt="Minha foto" width={300} className="profile-pic"/>
       </div>
-      </div>
+      </div> 
        <About /> 
        <Skills />
        <Education />

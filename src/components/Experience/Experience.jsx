@@ -1,9 +1,10 @@
+import './Experience.css';
 
 export function Experience(){
     return(
         <>
         <h1>Experiência</h1>
-        <h3>Estágio em Dados | Mérito Engenharia de Software </h3>
+        <h3 className='experience-title'>Estágio em Dados | Mérito Engenharia de Software </h3>
         <p>- Ijuí /RS março 2022 - setembro 2022</p>
         <div>
             <ul>
