@@ -1,0 +1,24 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px;
+    padding: 20px;
+}
+.network{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.network h3{
+    margin: 10px;
+}
+.network .network-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
