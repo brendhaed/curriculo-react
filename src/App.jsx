@@ -1,11 +1,12 @@
 import './styles/App.css';
 import {Profile} from './components/Profile/Profile';
+import { Header } from './components/Header/Header';
 
 function App() {
   return (
     <>
-    <h1>Hello World</h1>
-      <Profile />
+    <Header />
+    <Profile />
     </>
   )
     

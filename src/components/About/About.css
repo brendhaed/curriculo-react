@@ -1,7 +1,11 @@
-
 .about{
     border: 2px solid #b12ba9;
     border-radius: 30px;
     margin-top: 50px;
     padding: 20px;
+}
+.arrow{
+    transform: rotate(180deg); /* gira 90° */
+    transition: transform 0.3s ease; /* animação suave */
+    color: #b12ba9;
 }

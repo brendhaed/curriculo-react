@@ -6,7 +6,7 @@ export function Experience(){
         <div className="experience">
             <h1>Experiência</h1>
         <h3 className='experience-title'>Estágio em Dados | Mérito Engenharia de Software </h3>
-        <p>Ijuí /RS março 2022 - setembro 2022</p>
+        <p>Presensial - Ijuí /RS março 2022 - setembro 2022</p>
         <div className='experience-description'>
             <ul>
                 <li>Desenvolvimento e manutenção de consultas SQL, com foco na otimização de buscas e melhoria de desempenho

@@ -7,14 +7,14 @@ import {Education} from '../Education/Education';
 import {Experience} from '../Experience/Experience';
 import {Projects} from '../Projects/Projects';
 
-export function Profile(){
+export function Profile(){ 
     return (
        <>
         <div className="profile">
         <div className="header">
         <div className="name">
-          <h1 id='myname'>Brendha E.  Rodrigues</h1>
-          <p className=''>Desenvolvedora Front-End</p>
+          <h1 className="myname">Brendha E.  Rodrigues</h1>
+          <p className="cargo">Desenvolvedora Front-End</p>
         </div>
         <img src={FotoPerfil} alt="Minha foto" width={300} className="profile-pic"/>
       </div>
@@ -25,6 +25,6 @@ export function Profile(){
       <Education />
       <Experience />
       <Projects />
-       </>
+      </>
     )
 }

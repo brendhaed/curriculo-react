@@ -1,0 +1,104 @@
+:root {
+  --bg-color: #f5f5f5;
+  --text-color: #1e1e1e;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1e1e1e;
+  --text-color: #f5f5f5;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.3s, color 0.3s;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 400px; 
+  padding: 30px;
+  height: 100px;
+  padding: 0 20px;
+  position: relative;
+}
+.title-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/* Switch do botão */
+.switch {
+  position: absolute; 
+  right: 20px;
+  width: 70px;
+  height: 35px;
+  background: #ccc;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.icon {
+  font-size: 16px;
+  z-index: 1;
+  color: #fff;
+}
+
+.sun {
+  color: #f39c12; 
+}
+
+.moon {
+  color: #8e44ad; 
+}
+.code{
+    font-size: 70px;
+    fill: #555;
+}
+.slider {
+  width: 28px;
+  height: 28px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 3.5px;
+  left: 3.5px;
+  transition: transform 0.3s;
+  z-index: 0;
+}
+
+.slider.dark {
+  transform: translateX(35px);
+  background: #333;
+}
+
+[data-theme="dark"] .switch {
+  background: #555;
+}
+
+/* animação do h1 header */
+.header .greeting {
+  font-family: monospace; 
+  font-size: 2.5rem;
+  white-space: nowrap;     
+  overflow: hidden;       
+  border-right: 3px solid var(--text-color); 
+  width: 0;                
+  animation: typing 3s steps(12, end) forwards, blink 0.7s infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 12ch } 
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
