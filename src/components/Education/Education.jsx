@@ -2,7 +2,7 @@ import './Education.css';
 
 export function Education(){
     return(
-        <>
+        <> 
         <div className="education">
         <h1>Educação</h1>
         <div className="educ-1">

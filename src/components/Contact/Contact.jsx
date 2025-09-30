@@ -4,8 +4,9 @@ import './Contato.css'
 export function Contact(){
     return(
         <>
-        <h1>Contato</h1>
         <div className="contact">
+            <h1>Contato</h1>
+            <div className="itens">
             <div className="email">
             <h3>E-mail</h3>
             <p>brendhaed@outlook.com</p>
@@ -23,7 +24,8 @@ export function Contact(){
                 <FaGithub color="#000000" size={30} href='https://github.com/brendhaed' /> </a>
             </div>
             </div>
-        </div>
+            </div>
+        </div> 
         </>
     )
 }

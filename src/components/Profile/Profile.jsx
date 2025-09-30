@@ -9,9 +9,9 @@ import {Projects} from '../Projects/Projects';
 
 export function Profile(){ 
     return (
-       <>
-        <div className="profile">
-        <div className="header">
+       <> 
+        <div className="profile"> 
+        <div className="header-profile">
         <div className="name">
           <h1 className="myname">Brendha E.  Rodrigues</h1>
           <p className="cargo">Desenvolvedora Front-End</p>
@@ -19,7 +19,7 @@ export function Profile(){
         <img src={FotoPerfil} alt="Minha foto" width={300} className="profile-pic"/>
       </div>
       </div> 
-      <Contact />
+      <Contact /> 
       <About /> 
       <Skills />
       <Education />

@@ -1,6 +1,7 @@
 import './Header.css';
-import  {useState, useEffect} from 'react';
+import  {useState, useEffect, useRef} from 'react';
 import { FaCode, FaMoon, FaSun } from "react-icons/fa";
+import Typed from "typed.js";
 
 export function Header(){
       const [theme, setTheme] = useState(() => {
@@ -32,12 +33,26 @@ export function Header(){
       toggleTheme();
     }
   };
+
+  // typed js
+  const el = useRef(null);
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["Hello World"],
+      typeSpeed: 50,   
+      backSpeed: 50,   
+      loop: true,      
+    });
+    return () => {
+      typed.destroy();
+    }; 
+  }, []);
     return(
         <>
         <div className="header">
            <div className="title-header">
             <FaCode className="icon code"/>
-             <h1 className='greeting'>Hello World</h1>
+             <h1 ref={el}></h1>
            </div>
             <div className="switch" onClick={toggleTheme}>
             <div className={`slider ${theme}`}></div>

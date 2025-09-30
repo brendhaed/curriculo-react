@@ -3,13 +3,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 20px;
 } 
-.profile .header{
+.profile .header-profile{
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: white;
-    width: 100%;
+    width: 100%; 
     height: 180px;
     margin-top: 20px;
     border-radius: 50px;
@@ -43,3 +44,73 @@
     font-size: 1.1rem;
 }
 
+/* Responsividade */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .profile .header-profile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        gap: 15px;
+        padding: 25px;
+    }
+    .profile .myname{
+        font-size: 2rem;
+    }
+    .profile .profile-pic{
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .profile{
+        width: 100%;
+        max-width: 70%;
+        padding: 30px;
+        margin: 35px;
+    }
+    .profile .header-profile{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        gap: 2px;
+        padding: 10px;
+    }
+    .profile .name{
+        margin:10px;
+    }
+    .profile .myname{
+        font-size: 1.2rem;
+    }
+    .profile .profile-pic{
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 360px) {
+    .profile{
+        padding: 0;
+        margin: 20px;
+}
+.profile .header-profile{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        gap: 2px;
+        padding: 10px;
+    }
+     .profile .name{
+        margin:15px;
+    }
+    .profile .myname{
+        font-size: 1.2rem;
+    }
+    .profile .profile-pic{
+        width: 100px;
+        height: 100px;
+    }
+}
