@@ -2,7 +2,7 @@
   --bg-color: #f5f5f5;
   --text-color: #1e1e1e;
 } 
-
+ 
 [data-theme="dark"] {
   --bg-color: #1e1e1e;
   --text-color: #f5f5f5;
@@ -29,7 +29,7 @@ body {
     align-items: center;
     gap: 10px;
 }
-/* Switch do botão */
+
 .switch {
   position: absolute; 
   right: 20px;
@@ -59,8 +59,8 @@ body {
   color: #8e44ad; 
 }
 .code{
-    font-size: 40px;
-    fill: #555;
+  font-size: 40px;
+  fill: #555;
 }
 .slider {
   width: 28px;
@@ -90,36 +90,84 @@ body {
 }
 
 
-/* responsive */
-@media screen and (max-width: 768px){
+/* responsividade */
+
+@media (min-width: 768px) and (max-width: 1023px){
   .header {
-    gap: 20px;
+    gap: 30px;
     flex-direction: column;
     height: auto;
     padding: 20px;
   }
+  .switch{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  .typed-cursor {
+  font-size: 1.5rem; 
+  }
+  .code{
+  font-size: 25px;
+}
+.icon {
+    font-size: 25px;
+  }
 }
 
-@media screen and (max-width: 468px){
+@media (min-width: 481px) and (max-width: 767px){
   .header {
     gap: 10px;
-    width: 50%;
+    width: 80%;
     padding: 20px;
+    margin: 0 auto;
   }
-  .header .title-header{
+  .header .title-header h1{
+    font-size: 1.2rem;
+    gap: 4px;
+  }
+  .switch{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  .icon {
+    font-size: 25px;
+  }
+  .typed-cursor {
+  font-size: 1.2rem;
+}
+.code{
+  font-size: 25px;
+} 
+}
+@media (min-width: 381px) and (max-width: 480px){
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+  } 
+  .header .title-header h1{
     font-size: 0.9rem;
     gap: 2px;
   }
-  .header .title-header .h1{
-    font-size: 1.2rem;
-  }
-  .header .switch{
+  .switch{
     display: flex;
-    width: 65px;
-    height: 35px;
-    gap: 2px;
+    align-items: center;
+    margin-left: auto;
   }
   .icon {
-    font-size: 30px;
+    font-size: 20px;
   }
+  .typed-cursor {
+  font-size: 1rem;
+}
+.code{
+  font-size: 20px;
+}
 }

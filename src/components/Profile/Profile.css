@@ -1,5 +1,6 @@
 .profile{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -46,6 +47,12 @@
 
 /* Responsividade */
 @media (min-width: 768px) and (max-width: 1023px) {
+    profile{
+        width: 100%;
+        max-width: 90%;
+        padding: 30px;
+        margin: 35px;
+    }
     .profile .header-profile{
         display: flex;
         align-items: center;
@@ -69,7 +76,7 @@
     .profile{
         width: 100%;
         max-width: 70%;
-        padding: 30px;
+        padding: 50px;
         margin: 35px;
     }
     .profile .header-profile{
@@ -91,26 +98,31 @@
     }
 }
 
-@media (max-width: 360px) {
+@media (min-width: 381px) and (max-width: 480px) {
     .profile{
-        padding: 0;
-        margin: 20px;
-}
-.profile .header-profile{
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 80%;
+        padding: 20px;
+        margin: 20px;
+    }
+.profile .header-profile{
         height: auto;
         text-align: center;
         gap: 2px;
-        padding: 10px;
+        padding: 10px 20px;
     }
      .profile .name{
-        margin:15px;
+        margin:10px;
     }
     .profile .myname{
         font-size: 1.2rem;
     }
     .profile .profile-pic{
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
     }
 }

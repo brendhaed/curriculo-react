@@ -8,6 +8,7 @@ export function Skills(){
       <div className='skills'>
       <div className="hard-skills">
         <h3>Hard Skills</h3>
+        <div className="icons">
         <FaHtml5 color="#E34F26" size={40} />
         <FaCss3Alt color="#1572B6" size={40} />
         <SiTailwindcss color="#38BDF8" size={40} />
@@ -17,6 +18,7 @@ export function Skills(){
         <SiNextdotjs color="#000000" size={40} />
         <SiGit color="#F05032" size={40} />
         <SiGithub color="#000000" size={40} />
+        </div>
       </div>
 
       <div id="soft-skills">

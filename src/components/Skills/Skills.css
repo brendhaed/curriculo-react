@@ -2,7 +2,6 @@
 .skills h3{
     color: #d461fb;
     text-align: center;
-    /* border-bottom: 2px solid #d461fb; */
 }
 .skills {
     display: flex;
@@ -11,5 +10,25 @@
     justify-content: center;
     gap: 30px;
     margin: 50px;
+
+}
+
+@media (max-width: 768px) {
+    .skills{
+        margin: 20px;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+}
+@media (max-width: 480px) {
+    .skills{
+        margin: 5px;
+    }
 
 }

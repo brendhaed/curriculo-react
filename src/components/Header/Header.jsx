@@ -42,7 +42,7 @@ export function Header(){
       typeSpeed: 50,   
       backSpeed: 50,   
       loop: true,      
-    });
+    }); 
     return () => {
       typed.destroy();
     }; 

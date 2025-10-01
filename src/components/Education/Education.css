@@ -12,3 +12,21 @@
     margin-bottom: 10px;
     border-bottom: 1px solid #d461fb;
 }
+@media (max-width: 768px) {
+    .education{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 5px;
+        margin:10px;
+}
+    h3{
+        font-size: 1.1rem;
+    }
+    p{
+        font-size: 1rem;
+    
+    }
+}
+    
