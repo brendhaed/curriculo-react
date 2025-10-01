@@ -17,3 +17,22 @@
 }
 /* media queries */
 
+@media (max-width: 768px) {
+    .about{
+        margin: 10px;
+    }
+    .about p{
+        font-size: 1rem;
+        padding: 20px;
+    }
+}
+@media (min-width: 381px){
+    .about{
+        margin: 0;
+    }
+    .about p{
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+
+}

@@ -15,7 +15,7 @@
 
 @media (max-width: 768px) {
     .skills{
-        margin: 20px;
+        margin: 10px;
     }
     .icons{
         display: flex;
@@ -24,11 +24,12 @@
         flex-direction: row;
         align-items: center;
     }
-
+ 
 }
 @media (max-width: 480px) {
     .skills{
         margin: 5px;
+        text-align: center;
     }
-
+    
 }
