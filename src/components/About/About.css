@@ -19,11 +19,13 @@
 
 @media (max-width: 768px) {
     .about{
-        margin: 10px;
+        width: auto;
+        margin: auto;
+        padding: 2px;
     }
     .about p{
         font-size: 1rem;
-        padding: 20px;
+        padding: 10px;
     }
 }
 @media (min-width: 381px){

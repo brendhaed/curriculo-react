@@ -19,12 +19,13 @@ export function Profile(){
         <img src={FotoPerfil} alt="Minha foto" width={300} className="profile-pic"/>
       </div>
       </div> 
-      <Contact /> 
       <About /> 
       <Skills />
       <Education />
       <Experience />
       <Projects />
+      <Contact /> 
+      
       </>
     )
 }

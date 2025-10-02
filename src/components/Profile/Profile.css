@@ -119,7 +119,7 @@
         padding: 20px;
         margin: auto;
     }
-.profile .header-profile{
+    .profile .header-profile{
         height: auto;
         text-align: center;
         gap: 2px;
@@ -133,6 +133,6 @@
     }
     .profile .profile-pic{
         width: 90px;
-        height: 90px;
+        height: 85px;
     }
 }

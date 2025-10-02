@@ -23,7 +23,7 @@ export function Skills(){
 
       <div id="soft-skills">
         <h3>Soft Skills</h3>
-         <p>Proatividade, Comunicação, Metodologias ágeis, Flexidade, Adaptalidade </p>
+         <p>Trabalho em equipe | Comunicação | Resolução de problemas | Proatividade | Organização | Gestão do tempo | Metodologias ágeis </p>
        </div>
       </div>
       </>

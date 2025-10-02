@@ -4,7 +4,7 @@
     border-radius: 30px;
     margin-top: 50px;
     padding: 50px;
-}
+} 
 .educ-1, .educ-2{
     margin-bottom: 30px;
 }
@@ -12,6 +12,8 @@
     margin-bottom: 10px;
     border-bottom: 1px solid #d461fb;
 }
+
+/* media querie */
 @media (max-width: 768px) {
     .education{
         display: flex;
