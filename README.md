@@ -1,25 +1,20 @@
 # 🚀 Meu currículo com ReactJS
 
 **Descrição:**  
-
+Um currículo online desenvolvido em ReactJS e Vite, com foco em design simples e responsivo.
 
 ## 📚 Tecnologias Utilizadas
 
 - **ReactJS**: Biblioteca JavaScript para a construção da interface de usuário.
-- **CSS**: Para estilização dos componentes.
+- **CSS**: Para estilização dos componentes e responsividade.
+- **Vite**:
 
 ## 🖥️ Tecnologias e Linguagens
 
 <div align="center">
-   <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" />
-  <img width="12" />
- <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" />
-  <img width="12" />
-   <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5" />
+ <img src="https://skillicons.dev/icons?i=react" alt="icon" height="48" width="48" height="65" />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="css" />
-  </div>
-
-
-
-
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=vite" width="48" height="48" alt="css" />
+</div>

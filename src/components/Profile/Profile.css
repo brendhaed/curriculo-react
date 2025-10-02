@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 20px;
+    margin: 50px 20px;
 } 
 .profile .header-profile{
     display: flex;
@@ -116,7 +116,7 @@
         justify-content: center;
         width: 100%;
         max-width: 75%;
-        padding: 20px;
+        padding: 10px 20px 50px 20px;
         margin: auto;
     }
     .profile .header-profile{
@@ -127,6 +127,9 @@
     }
      .profile .name{
         margin:10px;
+    }
+    .name h1{
+        font-size: 1rem;
     }
     .profile .myname{
         font-size: 1.2rem;

@@ -26,5 +26,8 @@
     h3, h2, p{
         font-size: 1.1rem;
     }
+    .course{
+        text-align: center;
+    }
 }
     

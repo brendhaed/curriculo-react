@@ -18,7 +18,7 @@ export function Profile(){
         </div>
         <img src={FotoPerfil} alt="Minha foto" width={300} className="profile-pic"/>
       </div>
-      </div> 
+      </div>  
       <About /> 
       <Skills />
       <Education />

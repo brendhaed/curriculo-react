@@ -22,7 +22,7 @@ export function Education(){
 
         <div className="courses">
           <h2>Cursos relevantes</h2>
-        <p>
+        <p className='course'>
         JavaScript Avançado | Front-end para React | UX/UI para desenvolvedores | Versionamento de Código com Git e
         GitHub| Acessibilidades Web
         </p>
